@@ -1,0 +1,12 @@
+{
+  "name": "Example Extension",
+  "description": "For testing and creating new chrome extensions",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
